@@ -1,0 +1,113 @@
+*{
+	margin: 0px; 
+	padding: 0px; 
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/Vermillion.jpg);
+	background-size: cover;
+}
+P{
+	color: white;
+}
+marquee p{
+	color:white;
+}
+h1{
+	color:white;
+	text-align: center;
+	margin-top: 80px;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+.menu{
+    width:100%;
+    height:40px;
+}
+ .menu ul{
+	padding: 0;
+	margin: 0;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	border: 1px solid transparent;
+}
+.menu ul li a:hover{
+	background-color: white;
+	color:black;
+}
+ .menu ul li{
+	float: left;
+	list-style: none;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+}
+.tabel{
+	color:floralwhite;
+	margin-left: 500px;
+}
+.paragrap{
+	margin: 90px;
+	font-size: 17px;
+	color:white;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin-bottom: 400px;
+}
+.link {
+	margin-top: 50px;
+}
+.link ul li{
+	list-style: none;
+	font-size: 20px;
+}
+.link ul li a{
+	text-decoration: none;
+	color: white;
+}
+.store{
+	margin-bottom: 50px;
+	display: flex;
+}
+.wadah{
+	margin-top: 20px;
+	width:200px;
+	color:white;
+	text-align: center;
+}
+.wadah img{
+	width: 100px;
+	height: 100px;
+	margin-left: 360px;
+}
+.wadah p{
+	margin-left: 380px;
+	margin-top:10px;
+}
+.contak{
+	color:white;
+	margin: 30px;
+	margin-top: 300px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 20px;
+}
+#scrollFunction{
+	position: absolute;
+	cursor: pointer;
+	z-index: 9999;
+	top: 85%;
+	left: 85%;
+}
+#scrollFunction img{
+	position: fixed;
+	width: 100px;
+}
+footer{
+	background-color: black;
+	color : white;
+}

@@ -1,0 +1,128 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/sunset.jpg);
+    background-size: cover;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+#login-box{
+    position: relative;
+    margin: 5% auto;
+    height: 450px;
+    width:600px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+#validation{
+    position: relative;
+    margin: 5% auto;
+    height: 450px;
+    width:600px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+.box-satu{
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+h1{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+}
+input[type="text"],
+input[type="password"] {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+button[type="submit"] {
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: red;
+    border: none;
+    border-radius: 2px;
+    color:white;
+    font-weight: 500;
+    font-family: sans-serif;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background: orange;
+    transition: 0.2s ease;
+}
+.or {
+    position: absolute;
+    top: 300px;
+    left: 780px;
+    width: 40px;
+    height: 40px;
+    background: ghostwhite;
+    border-radius: 50%;
+    box-shadow: 0 2px  4px rgba(0,0,0,0.6);
+    line-height: 40px;
+    text-align: center;
+    position: center;
+}
+.box-dua {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 450px;
+    background-image: url(image/shoes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box-dua .signin {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+button.social{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 35px;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.facebook {
+    background-color: blue;
+}
+.facebook:hover{
+    background-color: skyblue;
+    transition: 0.2s ease;
+}
+.instagram {
+    background-color: plum;
+}
+.instagram:hover{
+    background-color: skyblue;
+    transition: 0.2s ease;
+}
+.google {
+    background-color: orange;
+}
+.google:hover{
+    background-color: skyblue;
+    transition: 0.2s ease;
+}
+
